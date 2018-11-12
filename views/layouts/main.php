@@ -20,13 +20,6 @@ AppAsset::register($this);
         <meta name="author" content="ThemeStarz">
 
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700">
-        <link rel="stylesheet" href="bootstrap/css/bootstrap.css" type="text/css">
-        <link rel="stylesheet" href="fonts/font-awesome.css" type="text/css">
-        <link rel="stylesheet" href="css/animate.css">
-        <link rel="stylesheet" href="css/morphext.css">
-        <link rel="stylesheet" href="css/owl.carousel.min.css">
-        <link rel="stylesheet" href="css/magnific-popup.css">
-        <link rel="stylesheet" href="css/style.css">
         <?= Html::csrfMetaTags() ?>
 
         <title><?= Html::encode($this->title) ?></title>
@@ -50,7 +43,7 @@ AppAsset::register($this);
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="#page-top">
-                    <img src="assets/img/logo.png" alt="">
+                    <img src="../../web/img/logo.png" alt="">
                 </a>
                 <!--end navbar-brand-->
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -110,13 +103,13 @@ AppAsset::register($this);
                 <div class="background opacity-40">
                     <div class="owl-carousel hero__slider parallax-element" data-owl-items="1" data-owl-autoplay="1" data-owl-dots="0" data-owl-nav="1" data-owl-loop="1" data-owl-fadeout="1">
                         <div class="slide img-into-bg">
-                            <img src="assets/img/bg-01.jpg" alt="">
+                            <img src="../../web/img/bg-01.jpg" alt="">
                         </div>
                         <div class="slide img-into-bg">
-                            <img src="assets/img/bg-02.jpg" alt="">
+                            <img src="../../web/img/bg-02.jpg" alt="">
                         </div>
                         <div class="slide img-into-bg">
-                            <img src="assets/img/bg-03.jpg" alt="">
+                            <img src="../../web/img/bg-03.jpg" alt="">
                         </div>
                     </div>
                 </div>
@@ -136,7 +129,7 @@ AppAsset::register($this);
         <section class="pb-0 block" id="what-we-do">
             <div class="container">
                 <div class="block__title">
-                    <h2 class="reveal">What We Do</h2>
+                    <h2 class="reveal">Что такое аукцион недвижимости? </h2>
                 </div>
                 <!--end block-title-->
 
@@ -147,14 +140,15 @@ AppAsset::register($this);
                             <div class="box__wrapper">
                                 <div class="box__header">
                                     <div class="box__image">
-                                        <img src="assets/img/icon-screen.png" class="" alt="">
+                                        <img src="../../web/img/icon-screen.png" class="" alt="">
                                     </div>
                                     <!--end box__image-->
-                                    <h4 class="reveal">Webdesign</h4>
+                                    <h4 class="reveal">Что такое аукцион недвижимости?</h4>
                                 </div>
                                 <!--end box__header-->
                                 <div class="box__content">
-                                    <p>Duis volutpat odio nec nulla imperdiet egestas. Nullam eu lobortis ipsum</p>
+                                    <p>Не секрет, что примерно каждый третий кредит, каждая пятая ипотека в России не выплачиваются. Иногда люди берут непосильную для себя ношу в виде кредита, под залог недвижимости.
+                                        Банк забирает недвижимость у заемщика и, так как банк на прямую не занимается продажей недвижимости, ему интересно избавиться от нее на аукционе. </p>
                                 </div>
                                 <!--end box__content-->
                             </div>
@@ -168,14 +162,14 @@ AppAsset::register($this);
                             <div class="box__wrapper">
                                 <div class="box__header">
                                     <div class="box__image">
-                                        <img src="assets/img/icon-camera.png" class="" alt="">
+                                        <img src="../../web/img/icon-camera.png" class="" alt="">
                                     </div>
                                     <!--end box__image-->
-                                    <h4 class="reveal">Photography</h4>
+                                    <h4 class="reveal">Как на этом заработать? </h4>
                                 </div>
                                 <!--end box__header-->
                                 <div class="box__content">
-                                    <p>Duis volutpat odio nec nulla imperdiet egestas. Nullam eu lobortis ipsum</p>
+                                    <p>Недвижимость, выставленная на аукцион сильно ниже рыночной стоимости данных объектов. Поэтому не стоит тянуть с принятием решения по участию в торгах. Зачастую разница между стоимостью лота и его рыночной стоимостью достигает 30-40%. </p>
                                 </div>
                                 <!--end box__content-->
                             </div>
@@ -189,7 +183,7 @@ AppAsset::register($this);
                             <div class="box__wrapper">
                                 <div class="box__header">
                                     <div class="box__image">
-                                        <img src="assets/img/icon-thumb-up.png" class="" alt="">
+                                        <img src="../../web/img/icon-thumb-up.png" class="" alt="">
                                     </div>
                                     <!--end box__image-->
                                     <h4 class="reveal">Social Marketing</h4>
@@ -217,7 +211,7 @@ AppAsset::register($this);
         <section class="pb-0 block" id="our-works">
             <div class="container">
                 <div class="block__title">
-                    <h2 class="reveal">Our Works</h2>
+                    <h2 class="reveal">Наши предложения</h2>
                 </div>
                 <!--end block-title-->
             </div>
@@ -236,72 +230,72 @@ AppAsset::register($this);
                                     <h3 class="reveal">Bathroom Refresh</h3>
                                 </div>
                                 <div class="img-into-bg">
-                                    <img src="assets/img/img-01.jpg" alt="">
+                                    <img src="../../web/img/img-01.jpg" alt="">
                                 </div>
                             </a>
                             <!--end gallery__image-->
                         </div>
                         <!--end col-md-4-->
                         <div class="col-md-4">
-                            <a href="assets/img/img-02.jpg" class="gallery__image popup-image">
+                            <a href="../../web/img/img-02.jpg" class="gallery__image popup-image">
                                 <div class="gallery__caption">
                                     <h5>Architecture</h5>
                                     <h3 class="reveal">Hills Apartment</h3>
                                 </div>
                                 <div class="img-into-bg">
-                                    <img src="assets/img/img-02.jpg" alt="">
+                                    <img src="../../web/img/img-02.jpg" alt="">
                                 </div>
                             </a>
                             <!--end gallery__image-->
                         </div>
                         <!--end col-md-4-->
                         <div class="col-md-4">
-                            <a href="assets/img/img-03.jpg" class="gallery__image popup-image">
+                            <a href="../../web/img/img-03.jpg" class="gallery__image popup-image">
                                 <div class="gallery__caption">
                                     <h5>Branding</h5>
                                     <h3 class="reveal">Story Restaurant</h3>
                                 </div>
                                 <div class="img-into-bg">
-                                    <img src="assets/img/img-03.jpg" alt="">
+                                    <img src="../../web/img/img-03.jpg" alt="">
                                 </div>
                             </a>
                             <!--end gallery__image-->
                         </div>
                         <!--end col-md-4-->
                         <div class="col-md-4">
-                            <a href="assets/img/img-04.jpg" class="gallery__image popup-image">
+                            <a href="../../web/img/img-04.jpg" class="gallery__image popup-image">
                                 <div class="gallery__caption">
                                     <h5>Industrial Design</h5>
                                     <h3 class="reveal">Room Furniture</h3>
                                 </div>
                                 <div class="img-into-bg">
-                                    <img src="assets/img/img-04.jpg" alt="">
+                                    <img src="../../web/img/img-04.jpg" alt="">
                                 </div>
                             </a>
                             <!--end gallery__image-->
                         </div>
                         <!--end col-md-4-->
                         <div class="col-md-4">
-                            <a href="assets/img/img-05.jpg" class="gallery__image popup-image">
+                            <a href="../../web/img/img-05.jpg" class="gallery__image popup-image">
                                 <div class="gallery__caption">
                                     <h5>Branding</h5>
                                     <h3 class="reveal">Maracana Cups</h3>
                                 </div>
                                 <div class="img-into-bg">
-                                    <img src="assets/img/img-05.jpg" alt="">
+                                    <img src="../../web/img/img-05.jpg" alt="">
                                 </div>
                             </a>
                             <!--end gallery__image-->
                         </div>
                         <!--end col-md-4-->
                         <div class="col-md-4">
-                            <a href="assets/img/img-06.jpg" class="gallery__image popup-image">
+                            <a href="../../web/img/img-06.jpg" class="gallery__image popup-image">
                                 <div class="gallery__caption">
                                     <h5>Art</h5>
                                     <h3 class="reveal">Timeless Motion</h3>
                                 </div>
                                 <div class="img-into-bg">
-                                    <img src="assets/img/img-06.jpg" alt="">
+                                    <img src="../../web/img/img-06.jpg" alt="">
                                 </div>
                             </a>
                             <!--end gallery__image-->
@@ -347,7 +341,7 @@ AppAsset::register($this);
                         </div>
                         <!--end col-md-7-->
                         <div class="col-md-5">
-                            <img class="width-100 shadow rounded-corners" src="assets/img/img-07.jpg" alt="">
+                            <img class="width-100 shadow rounded-corners" src="../../web/img/img-07.jpg" alt="">
                         </div>
                         <!--end col-md-5-->
                     </div>
@@ -361,254 +355,12 @@ AppAsset::register($this);
 
         <!--THE TEAM ********************************************************************************************-->
 
-        <section class="pb-4 block skew-down-left skew-up-right" id="the-team">
-            <div class="container">
-                <div class="block__wrapper">
-                    <div class="block__title">
-                        <h2 class="reveal">The Team</h2>
-                    </div>
-                    <!--end block-title-->
 
-                    <div class="row">
-                        <div class="col-sm-6 col-md-6 col-lg-3">
-                            <div class="person">
-                                <h4 class="reveal">Jane Doe</h4>
-                                <h5>Company CEO</h5>
-                                <div class="person__image">
-                                    <div class="person__social">
-                                        <a href="#">
-                                            <i class="fa fa-twitter"></i>
-                                        </a>
-                                        <a href="#">
-                                            <i class="fa fa-facebook"></i>
-                                        </a>
-                                        <a href="#">
-                                            <i class="fa fa-envelope"></i>
-                                        </a>
-                                    </div>
-                                    <div class="img-into-bg">
-                                        <img src="assets/img/person-01.jpg" alt="">
-                                    </div>
-                                </div>
-                                <!--end person__image-->
-                            </div>
-                            <!--end person-->
-                        </div>
-                        <!--end col-md-3-->
-                        <div class="col-sm-6 col-md-6 col-lg-3">
-                            <div class="person">
-                                <h4 class="reveal">Suzane Sparks</h4>
-                                <h5>Accountant</h5>
-                                <div class="person__image">
-                                    <div class="person__social">
-                                        <a href="#">
-                                            <i class="fa fa-twitter"></i>
-                                        </a>
-                                        <a href="#">
-                                            <i class="fa fa-facebook"></i>
-                                        </a>
-                                        <a href="#">
-                                            <i class="fa fa-envelope"></i>
-                                        </a>
-                                    </div>
-                                    <div class="img-into-bg">
-                                        <img src="assets/img/person-02.jpg" alt="">
-                                    </div>
-                                </div>
-                                <!--end person__image-->
-                            </div>
-                            <!--end person-->
-                        </div>
-                        <!--end col-md-3-->
-                        <div class="col-sm-6 col-md-6 col-lg-3">
-                            <div class="person">
-                                <h4 class="reveal">John Peters</h4>
-                                <h5>Head of Marketing</h5>
-                                <div class="person__image">
-                                    <div class="person__social">
-                                        <a href="#">
-                                            <i class="fa fa-twitter"></i>
-                                        </a>
-                                        <a href="#">
-                                            <i class="fa fa-facebook"></i>
-                                        </a>
-                                        <a href="#">
-                                            <i class="fa fa-envelope"></i>
-                                        </a>
-                                    </div>
-                                    <div class="img-into-bg">
-                                        <img src="assets/img/person-03.jpg" alt="">
-                                    </div>
-                                </div>
-                                <!--end person__image-->
-                            </div>
-                            <!--end person-->
-                        </div>
-                        <!--end col-md-3-->
-                        <div class="col-sm-6 col-md-6 col-lg-3">
-                            <div class="person">
-                                <h4 class="reveal">Edward Palmer</h4>
-                                <h5>SEO Expert</h5>
-                                <div class="person__image">
-                                    <div class="person__social">
-                                        <a href="#">
-                                            <i class="fa fa-twitter"></i>
-                                        </a>
-                                        <a href="#">
-                                            <i class="fa fa-facebook"></i>
-                                        </a>
-                                        <a href="#">
-                                            <i class="fa fa-envelope"></i>
-                                        </a>
-                                    </div>
-                                    <div class="img-into-bg">
-                                        <img src="assets/img/person-04.jpg" alt="">
-                                    </div>
-                                </div>
-                                <!--end person__image-->
-                            </div>
-                            <!--end person-->
-                        </div>
-                        <!--end col-md-3-->
-                    </div>
-                    <!--end row-->
-                </div>
-                <!--end block__wrapper-->
-            </div>
-            <!--end container-->
-            <div class="background-wrapper" data-background-color="#eeeeee">
-                <div class="background background--image opacity-5 background--repeat-repeat">
-                    <img src="assets/img/pattern-topo.png" alt="">
-                </div>
-            </div>
-            <!--end background-->
-        </section>
         <!--end #our-team.block-->
 
         <!--BLOG ************************************************************************************************-->
 
-        <section class="pt-4 block" id="blog">
-            <div class="container">
-                <div class="block__wrapper">
-                    <div class="block__title">
-                        <h2 class="reveal">Blog</h2>
-                    </div>
-                    <!--end block-title-->
 
-                    <div class="row">
-                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                            <a href="#" class="box box--image">
-                                <div class="box__wrapper no-shadow">
-                                    <div class="box__header">
-                                        <div class="box__image img-into-bg">
-                                            <img src="assets/img/blog-01.jpg" alt="">
-                                        </div>
-                                    </div>
-                                    <!--end box__wrapper-->
-                                    <div class="box__content px-0">
-                                        <h5>02.03.2018</h5>
-                                        <h4 class="reveal">How To Become More Creative</h4>
-                                        <p class="mb-4">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id
-                                            arcu iaculis, rutrum nunc ac, pellentesque risus. Vivamus hendrerit
-                                        </p>
-                                        <div class="additional-info">
-                                            <figure>
-                                                <i class="fa fa-comment"></i>
-                                                <span>20</span>
-                                            </figure>
-                                            <figure>
-                                                <i class="fa fa-heart"></i>
-                                                <span>46</span>
-                                            </figure>
-                                        </div>
-                                        <!--end additional-info-->
-                                    </div>
-                                    <!--end box__content-->
-                                </div>
-                                <!--end box__wrapper-->
-                            </a>
-                            <!--end box-->
-                        </div>
-                        <!--end col-xl-4-->
-
-                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                            <a href="#" class="box box--image">
-                                <div class="box__wrapper no-shadow">
-                                    <div class="box__header">
-                                        <div class="box__image img-into-bg">
-                                            <img src="assets/img/blog-02.jpg" alt="">
-                                        </div>
-                                    </div>
-                                    <!--end box__header-->
-                                    <div class="box__content px-0">
-                                        <h5>02.03.2018</h5>
-                                        <h4 class="reveal">10 Tips For Better Photography</h4>
-                                        <p class="mb-4">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id
-                                            arcu iaculis, rutrum nunc ac, pellentesque risus. Vivamus hendrerit
-                                        </p>
-                                        <div class="additional-info">
-                                            <figure>
-                                                <i class="fa fa-comment"></i>
-                                                <span>20</span>
-                                            </figure>
-                                            <figure>
-                                                <i class="fa fa-heart"></i>
-                                                <span>46</span>
-                                            </figure>
-                                        </div>
-                                        <!--end additional-info-->
-                                    </div>
-                                    <!--end box__content-->
-                                </div>
-                                <!--end box__wrapper-->
-                            </a>
-                            <!--end box-->
-                        </div>
-                        <!--end col-xl-4-->
-
-                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                            <a href="#" class="box box--image">
-                                <div class="box__wrapper no-shadow">
-                                    <div class="box__header">
-                                        <div class="box__image img-into-bg">
-                                            <img src="assets/img/blog-03.jpg" alt="">
-                                        </div>
-                                    </div>
-                                    <!--end box__header-->
-                                    <div class="box__content px-0">
-                                        <h5>02.03.2018</h5>
-                                        <h4 class="reveal">Refresh Your Mind and Body</h4>
-                                        <p class="mb-4">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id
-                                            arcu iaculis, rutrum nunc ac, pellentesque risus. Vivamus hendrerit
-                                        </p>
-                                        <div class="additional-info">
-                                            <figure>
-                                                <i class="fa fa-comment"></i>
-                                                <span>20</span>
-                                            </figure>
-                                            <figure>
-                                                <i class="fa fa-heart"></i>
-                                                <span>46</span>
-                                            </figure>
-                                        </div>
-                                        <!--end additional-info-->
-                                    </div>
-                                    <!--end box__content-->
-                                </div>
-                                <!--end box__wrapper-->
-                            </a>
-                            <!--end box-->
-                        </div>
-                        <!--end col-xl-4-->
-                    </div>
-                    <!--end row-->
-                </div>
-            </div>
-            <!--end container-->
-        </section>
         <!--end #blog.block-->
 
     </div>
