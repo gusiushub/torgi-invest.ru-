@@ -52,9 +52,9 @@ AppAsset::register($this);
                 <!--end navbar-toggler-->
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav ml-auto">
-                        <a class="nav-item nav-link active" href="#page-top">Home <span class="sr-only">(current)</span></a>
-                        <a class="nav-item nav-link" href="#what-we-do">What We Do</a>
-                        <a class="nav-item nav-link" href="#our-works">Our Works</a>
+                        <a class="nav-item nav-link active" href="#page-top">Главная <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link" href="#what-we-do">Что такое аукцион</a>
+                        <a class="nav-item nav-link" href="#our-works">Наши предложения</a>
                         <a class="nav-item nav-link" href="#the-team">The Team</a>
                         <a class="nav-item nav-link" href="#about-us">About Us</a>
                         <a class="nav-item nav-link" href="#blog">Blog</a>
