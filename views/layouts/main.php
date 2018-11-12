@@ -43,7 +43,7 @@ AppAsset::register($this);
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="#page-top">
-                    <img src="../../web/img/logo.png" alt="">
+<!--                    <img src="../../web/img/logo.png" alt="">-->
                 </a>
                 <!--end navbar-brand-->
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -53,12 +53,12 @@ AppAsset::register($this);
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav ml-auto">
                         <a class="nav-item nav-link active" href="#page-top">Главная <span class="sr-only">(current)</span></a>
-                        <a class="nav-item nav-link" href="#what-we-do">Что такое аукцион</a>
+                        <a class="nav-item nav-link" href="#what-we-do">Что такое аукцион?</a>
                         <a class="nav-item nav-link" href="#our-works">Наши предложения</a>
-                        <a class="nav-item nav-link" href="#the-team">The Team</a>
-                        <a class="nav-item nav-link" href="#about-us">About Us</a>
-                        <a class="nav-item nav-link" href="#blog">Blog</a>
-                        <a class="nav-item nav-link" href="#contact">Contact</a>
+<!--                        <a class="nav-item nav-link" href="#the-team">The Team</a>-->
+                        <a class="nav-item nav-link" href="#about-us">О нас</a>
+<!--                        <a class="nav-item nav-link" href="#blog">Blog</a>-->
+                        <a class="nav-item nav-link" href="#contact">Заказать звонок / Назначить встречу</a>
                     </div>
                     <!--end navbar-nav-->
                 </div>
@@ -147,7 +147,7 @@ AppAsset::register($this);
                                 </div>
                                 <!--end box__header-->
                                 <div class="box__content">
-                                    <p>Не секрет, что примерно каждый третий кредит, каждая пятая ипотека в России не выплачиваются. Иногда люди берут непосильную для себя ношу в виде кредита, под залог недвижимости.
+                                    <p style="font-size: 1.5rem;">Не секрет, что примерно каждый третий кредит, каждая пятая ипотека в России не выплачиваются. Иногда люди берут непосильную для себя ношу в виде кредита, под залог недвижимости.
                                         Банк забирает недвижимость у заемщика и, так как банк на прямую не занимается продажей недвижимости, ему интересно избавиться от нее на аукционе. </p>
                                 </div>
                                 <!--end box__content-->
@@ -169,7 +169,7 @@ AppAsset::register($this);
                                 </div>
                                 <!--end box__header-->
                                 <div class="box__content">
-                                    <p>Недвижимость, выставленная на аукцион сильно ниже рыночной стоимости данных объектов. Поэтому не стоит тянуть с принятием решения по участию в торгах. Зачастую разница между стоимостью лота и его рыночной стоимостью достигает 30-40%. </p>
+                                    <p style="font-size: 1.5rem;">Недвижимость, выставленная на аукцион сильно ниже рыночной стоимости данных объектов. Поэтому не стоит тянуть с принятием решения по участию в торгах. Зачастую разница между стоимостью лота и его рыночной стоимостью достигает 30-40%. </p>
                                 </div>
                                 <!--end box__content-->
                             </div>
@@ -190,7 +190,7 @@ AppAsset::register($this);
                                 </div>
                                 <!--end box__header-->
                                 <div class="box__content">
-                                    <p>Phasellus tincidunt metus vel ex pharetra sagittis. Maecenas at convallis dui</p>
+                                    <p style="font-size: 1.5rem;">Phasellus tincidunt metus vel ex pharetra sagittis. Maecenas at convallis dui</p>
                                 </div>
                                 <!--end box__content-->
                             </div>
@@ -321,21 +321,30 @@ AppAsset::register($this);
             <div class="container">
                 <div class="block__wrapper">
                     <div class="block__title">
-                        <h2 class="reveal">About Us</h2>
+                        <h2 class="reveal">Что предлагаем мы? </h2>
                     </div>
                     <!--end block-title-->
 
                     <div class="row">
                         <div class="col-md-7">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id arcu iaculis,
-                                rutrum nunc ac, pellentesque risus. Vivamus hendrerit ligula nisl, at venenatis mi
-                                cursus et. Sed vitae ante quis tellus iaculis placerat quis nec urna. Morbi eget
-                                metus in odio cursus faucibus. Praesent metus diam, finibus eget turpis in, cursus
-                                accumsan eros. Morbi euismod metus arcu, quis venenatis massa ultrices eu.
-                                In sagittis consequat lectus ac venenatis. Praesent in ipsum ut libero  lacinia
-                                eleifend. Nunc vitae porttitor ante, ut vehicula velit. In varius massa ut
-                                scelerisque commodo.
+                            <p style="font-size: 1.5rem;">
+                                Мы непосредственно предлагаем поучаствовать в торгах и сильно сэкономить на покупке недвижимости.
+                                Алгоритм действий таков:
+
+                                - Мы подбираем вам наиболее подходящий вам лот.
+                                При личной встрече в офисе просматриваем список актуальных объектов недвижимости.
+
+                                - Регистрируем заявку на участие в аукционе.
+                                Собираем пакет документов и оплачиваем пошлину.
+
+                                - Заносим на счет 10% от стоимости лота для участия.
+
+                                - Выигрываем аукцион. Доносим оставшиеся 90%.
+
+                                - Получаем право собственности на объект.
+
+                                По срокам процедур, цене лота или депозита, и многие другие индивидуальные вопросы расскажем при встрече в офисе.
+
                             </p>
                             <a href="#contact" class="btn btn-default mb-4">Contact Us</a>
                         </div>
@@ -373,14 +382,14 @@ AppAsset::register($this);
         <div class="container">
             <div class="block__wrapper">
                 <div class="block__title" id="contact">
-                    <h2>Contact</h2>
+                    <h2>Контакты</h2>
                 </div>
                 <!--end block-title-->
                 <div class="row">
                     <div class="col-xl-5 col-lg-6 col-md-12 col-sm-12">
                         <div class="row">
                             <div class="col-sm-6 col-lg-12">
-                                <h4>Our Address</h4>
+                                <h4>Наш адрес</h4>
                                 <address>
                                     3869 Shearwood Forest Drive
                                     <br>
@@ -388,7 +397,12 @@ AppAsset::register($this);
                                     <br>
                                     United States
                                 </address>
+
                             </div>
+                            <div class="form-group clearfix">
+                                <button style="font-size: 1.5rem;" type="submit" class="btn pull-right btn-default" id="form-contact-submit">Заказать звонок</button>
+                            </div>
+
                             <!--end col-sm-6 col-lg-12-->
                             <div class="col-sm-6 col-lg-12">
                                 <div class="py-4">
@@ -447,7 +461,7 @@ AppAsset::register($this);
                             </div>
                             <!--end row -->
                             <div class="form-group clearfix">
-                                <button type="submit" class="btn pull-right btn-default" id="form-contact-submit">Send a Message</button>
+                                <button style="font-size: 1.5rem;" type="submit" class="btn pull-right btn-default" id="form-contact-submit">Отправить</button>
                             </div>
                             <!--end form-group -->
                             <div class="form-contact-status"></div>
