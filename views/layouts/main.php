@@ -20,13 +20,13 @@ AppAsset::register($this);
         <meta name="author" content="ThemeStarz">
 
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700">
-        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css" type="text/css">
-        <link rel="stylesheet" href="assets/fonts/font-awesome.css" type="text/css">
-        <link rel="stylesheet" href="assets/css/animate.css">
-        <link rel="stylesheet" href="assets/css/morphext.css">
-        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-        <link rel="stylesheet" href="assets/css/magnific-popup.css">
-        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.css" type="text/css">
+        <link rel="stylesheet" href="fonts/font-awesome.css" type="text/css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/morphext.css">
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/magnific-popup.css">
+        <link rel="stylesheet" href="css/style.css">
         <?= Html::csrfMetaTags() ?>
 
         <title><?= Html::encode($this->title) ?></title>
@@ -728,18 +728,18 @@ AppAsset::register($this);
 </div>
 <!--end page-->
 
-<script src="assets/js/jquery-3.2.1.min.js"></script>
-<script src="assets/js/popper.min.js"></script>
-<script src="assets/bootstrap/js/bootstrap.min.js"></script>
-<script src="assets/js/isInViewport.jquery.js"></script>
-<script src="assets/js/jquery.particleground.min.js"></script>
-<script src="assets/js/jquery.magnific-popup.min.js"></script>
-<script src="assets/js/owl.carousel.min.js"></script>
-<script src="assets/js/pace.min.js"></script>
-<script src="assets/js/jquery.validate.min.js"></script>
-<script src="assets/js/jquery-validate.bootstrap-tooltip.min.js"></script>
-<script src="assets/js/morphext.min.js"></script>
-<script src="assets/js/custom.js"></script>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="js/isInViewport.jquery.js"></script>
+<script src="js/jquery.particleground.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/pace.min.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/jquery-validate.bootstrap-tooltip.min.js"></script>
+<script src="js/morphext.min.js"></script>
+<script src="js/custom.js"></script>
 
 
 
