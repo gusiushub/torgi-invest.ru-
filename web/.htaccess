@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Options +FollowSymLinks
 IndexIgnore */*
 
@@ -9,3 +10,11 @@ RewriteCond %{REQUEST_FILENAME} !-d
 
 # otherwise forward it to index.php
 RewriteRule . index.php
+=======
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . index.php
+
+RewriteRule ^index.php/ - [L,R=404]
+>>>>>>> bc1b54eb05ab816a556b740f483b5a13b73ac029

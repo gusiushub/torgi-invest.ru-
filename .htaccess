@@ -11,4 +11,10 @@ RewriteRule (.*) /web/$1
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
+<<<<<<< HEAD
 RewriteRule . /web/index.php
+=======
+RewriteRule . /web/index.php
+php_value default_charset utf-8
+AddType 'text/html; charset=utf-8' .html .htm .shtml
+>>>>>>> bc1b54eb05ab816a556b740f483b5a13b73ac029
