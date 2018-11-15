@@ -196,6 +196,7 @@
                 <div class="container-fluid px-0">
                     <div class="row no-gutters">
                         <div class="col-md-4">
+                            <a href="../../web/img/qwer.jpg" class="gallery__image popup-image">
 <!--                            <a href="http://www.youtube.com/watch?v=0O2aH4XLbto" class="gallery__image video-popup">-->
                                 <div class="gallery__caption">
 <!--                                    <h3>-->
@@ -460,7 +461,7 @@
         <!--end hr-->
 
         <div class="container">
-            <span>(C) Copyright 2017, All Rights Reserved</span>
+            <span>(C) Copyright 2018, All Rights Reserved</span>
         </div>
         <!--end container-->
 
@@ -474,15 +475,15 @@
 </div>
 <!--end page-->
 
-<script src="js/jquery-3.2.1.min.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="bootstrap/js/bootstrap.min.js"></script>
-<script src="js/isInViewport.jquery.js"></script>
-<script src="js/jquery.particleground.min.js"></script>
-<script src="js/jquery.magnific-popup.min.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/pace.min.js"></script>
-<script src="js/jquery.validate.min.js"></script>
-<script src="js/jquery-validate.bootstrap-tooltip.min.js"></script>
-<script src="js/morphext.min.js"></script>
-<script src="js/custom.js"></script>
+<script src="../../web/js/jquery-3.2.1.min.js"></script>
+<script src="../../web/js/popper.min.js"></script>
+<script src="../../web/bootstrap/js/bootstrap.min.js"></script>
+<script src="../../web/js/isInViewport.jquery.js"></script>
+<script src="../../web/js/jquery.particleground.min.js"></script>
+<script src="../../web/js/jquery.magnific-popup.min.js"></script>
+<script src="../../web/js/owl.carousel.min.js"></script>
+<script src="../../web/js/pace.min.js"></script>
+<script src="../../web/js/jquery.validate.min.js"></script>
+<script src="../../web/js/jquery-validate.bootstrap-tooltip.min.js"></script>
+<script src="../../web/js/morphext.min.js"></script>
+<script src="../../web/js/custom.js"></script>
