@@ -2,9 +2,9 @@
 
 return [
     'class' => 'yii\db\Connection',
-    'dsn' => 'mysql:host=localhost;dbname=cl72360_torgi',
-    'username' => 'cl72360_torgi',
-    'password' => 'qwerrewq',
+    'dsn' => 'mysql:host=localhost;dbname=torgi',
+    'username' => 'root',
+    'password' => '',
     'charset' => 'utf8',
 
     // Schema cache options (for production environment)
