@@ -71,14 +71,14 @@
                 <div class="background opacity-40">
                     <div class="owl-carousel hero__slider parallax-element" data-owl-items="1" data-owl-autoplay="1" data-owl-dots="0" data-owl-nav="1" data-owl-loop="1" data-owl-fadeout="1">
                         <div class="slide img-into-bg">
-                            <img src="../../web/img/bg-01.jpg" alt="">
+                            <img src="../../web/img/top.jpg" alt="">
                         </div>
                         <div class="slide img-into-bg">
-                            <img src="../../web/img/bg-02.jpg" alt="">
+                            <img src="../../web/img/top-02.jpg" alt="">
                         </div>
-                        <div class="slide img-into-bg">
-                            <img src="../../web/img/bg-03.jpg" alt="">
-                        </div>
+<!--                        <div class="slide img-into-bg">-->
+<!--                            <img src="../../web/img/bg-03.jpg" alt="">-->
+<!--                        </div>-->
                     </div>
                 </div>
             </div>
@@ -97,7 +97,7 @@
         <section class="pb-0 block" id="what-we-do">
             <div class="container">
                 <div class="block__title">
-                    <h2 class="reveal">Что такое аукцион недвижимости? </h2>
+                    <h2>Что такое аукцион недвижимости? </h2>
                 </div>
                 <!--end block-title-->
 
@@ -108,17 +108,18 @@
                             <div class="box__wrapper">
                                 <div class="box__header">
                                     <div class="box__image">
-                                        <img src="../../web/img/icon-screen.png" class="" alt="">
+                                        <img src="../../web/img/auction.png" class="" alt="">
                                     </div>
                                     <!--end box__image-->
-                                    <h4 class="reveal">Что такое аукцион недвижимости?</h4>
+                                    <h4>Что такое аукцион недвижимости?</h4>
                                 </div>
                                 <!--end box__header-->
                                 <div class="box__content">
                                     <p style="font-size: 1.5rem;">
                                         Не секрет, что происходить с недвижимостью должников, невыплачивающих ипотеку.
                                         Иногда люди берут непосильную для себя ношу в виде кредита, под залог недвижимости.
-                                        Банк забирает недвижимость у заемщика и, так как банк на прямую не занимается продажей недвижимости, он выставляет ее на аукцион.  </p>
+                                        Банк забирает недвижимость у заемщика и, так как банк на прямую не занимается продажей
+                                        недвижимости, он выставляет ее на аукцион.  </p>
                                 </div>
                                 <!--end box__content-->
                             </div>
@@ -132,14 +133,16 @@
                             <div class="box__wrapper">
                                 <div class="box__header">
                                     <div class="box__image">
-                                        <img src="../../web/img/icon-camera.png" class="" alt="">
+                                        <img src="../../web/img/pay.png" class="" alt="">
                                     </div>
                                     <!--end box__image-->
-                                    <h4 class="reveal">Как на этом заработать? </h4>
+                                    <h4>Как на этом заработать? </h4>
                                 </div>
                                 <!--end box__header-->
                                 <div class="box__content">
-                                    <p style="font-size: 1.5rem;">Недвижимость, выставленная на аукцион, сильно ниже рыночной стоимости. Зачастую разница между стоимостью лота и его рыночной стоимостью достигает 30-40%. Это является выгодной инвестицией в недвижимость. </p>
+                                    <p style="font-size: 1.5rem;">Недвижимость, выставленная на аукцион, сильно ниже рыночной стоимости.
+                                        Зачастую разница между стоимостью лота и его рыночной стоимостью достигает 30-40%.
+                                        Это является выгодной инвестицией в недвижимость. </p>
                                 </div>
                                 <!--end box__content-->
                             </div>
@@ -153,10 +156,10 @@
                             <div class="box__wrapper">
                                 <div class="box__header">
                                     <div class="box__image">
-                                        <img src="../../web/img/icon-thumb-up.png" class="" alt="">
+                                        <img src="../../web/img/offer.png" class="" alt="">
                                     </div>
                                     <!--end box__image-->
-                                    <h4 class="reveal">Что предлагаем мы?</h4>
+                                    <h4>Что предлагаем мы?</h4>
                                 </div>
                                 <!--end box__header-->
                                 <div class="box__content">
@@ -183,7 +186,7 @@
         <section class="pb-0 block" id="our-works">
             <div class="container">
                 <div class="block__title">
-                    <h2 class="reveal">Наши предложения</h2>
+                    <h2>Наши предложения</h2>
                 </div>
                 <!--end block-title-->
             </div>
@@ -305,7 +308,7 @@
             <div class="container">
                 <div class="block__wrapper">
                     <div class="block__title">
-                        <h2 class="reveal">Что предлагаем мы? </h2>
+                        <h2>Что предлагаем мы? </h2>
                     </div>
                     <!--end block-title-->
 
@@ -326,7 +329,7 @@
                         </div>
                         <!--end col-md-7-->
                         <div class="col-md-5">
-                            <img class="width-100 shadow rounded-corners" src="../../web/img/img-07.jpg" alt="">
+                            <img class="width-100 shadow rounded-corners" src="../../web/img/office.jpg" alt="">
                         </div>
                         <!--end col-md-5-->
                     </div>
