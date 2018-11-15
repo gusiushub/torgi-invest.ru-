@@ -475,15 +475,3 @@
 </div>
 <!--end page-->
 
-<script src="../../web/js/jquery-3.2.1.min.js"></script>
-<script src="../../web/js/popper.min.js"></script>
-<script src="../../web/bootstrap/js/bootstrap.min.js"></script>
-<script src="../../web/js/isInViewport.jquery.js"></script>
-<script src="../../web/js/jquery.particleground.min.js"></script>
-<script src="../../web/js/jquery.magnific-popup.min.js"></script>
-<script src="../../web/js/owl.carousel.min.js"></script>
-<script src="../../web/js/pace.min.js"></script>
-<script src="../../web/js/jquery.validate.min.js"></script>
-<script src="../../web/js/jquery-validate.bootstrap-tooltip.min.js"></script>
-<script src="../../web/js/morphext.min.js"></script>
-<script src="../../web/js/custom.js"></script>
