@@ -318,7 +318,7 @@ hr.hr-skew-left {
 }
 
 hr.hr-skew-left:before {
-    background-image: url("../../assets/img/hr-skew-left.png");
+    background-image: url("../img/hr-skew-left.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: top left;
@@ -338,7 +338,7 @@ hr.hr-skew-right {
 }
 
 hr.hr-skew-right:before {
-    background-image: url("../../assets/img/bg-skew-up-right.png");
+    background-image: url("../img/bg-skew-up-right.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: top left;
@@ -1119,7 +1119,7 @@ B. Classes
 }
 
 #hero .navbar:after {
-    background-image: url("../../assets/img/bg-skew-navbar.png");
+    background-image: url("../img/bg-skew-navbar.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: top right;
@@ -2370,7 +2370,7 @@ D. Utilities
 }
 
 .skew-up-right:before {
-    background-image: url("../../assets/img/bg-skew-up-right.png");
+    background-image: url("../img/bg-skew-up-right.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: top left;
@@ -2389,7 +2389,7 @@ D. Utilities
 }
 
 .skew-up-left:before {
-    background-image: url("../../assets/img/bg-skew-up-left.png");
+    background-image: url("../img/bg-skew-up-left.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: top left;
@@ -2408,7 +2408,7 @@ D. Utilities
 }
 
 .skew-down-right:after {
-    background-image: url("../../assets/img/bg-skew-down-right.png");
+    background-image: url("../img/bg-skew-down-right.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: bottom right;
@@ -2427,7 +2427,7 @@ D. Utilities
 }
 
 .skew-down-left:after {
-    background-image: url("../../assets/img/bg-skew-down-left.png");
+    background-image: url("../img/bg-skew-down-left.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: bottom right;

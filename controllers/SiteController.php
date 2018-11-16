@@ -2,6 +2,7 @@
 
 namespace app\controllers;
 
+use app\models\Notification;
 use Yii;
 use yii\filters\AccessControl;
 use yii\web\Controller;
@@ -61,6 +62,22 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
+        if (isset($_POST['phone'])){
+            if (!empty($_POST['name'])){
+                $notification = new Notification();
+                $notification->name = $_POST['name'];
+                $notification->phone = $_POST['phone'];
+                $notification->type = 1;
+                $notification->save();
+//                return $this->render('index');
+            }else{
+                $notification = new Notification();
+                $notification->name = 'не указали';
+                $notification->phone = $_POST['phone'];
+                $notification->type = 1;
+                $notification->save();
+            }
+        }
         return $this->render('index');
     }
 

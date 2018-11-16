@@ -261,21 +261,21 @@ $(document).ready(function($) {
 	
 	//  Form Validation
 
-    $(".form .btn[type='submit']").on("click", function(e){		
-        var button = $(this);
-        var form = $(this).closest("form");
-        button.prepend("<div class='status'></div>");		
-        form.validate({
-            submitHandler: function() {
-                $.post("assets/php/email.php", form.serialize(),  function(response) {
-				console.log(response);
-                    button.find(".status").append(response);
-                    form.addClass("submitted");
-                });
-                return false;
-            }
-        });
-    });
+    // $(".form .btn[type='submit']").on("click", function(e){
+    //     var button = $(this);
+    //     var form = $(this).closest("form");
+    //     button.prepend("<div class='status'></div>");
+    //     form.validate({
+    //         submitHandler: function() {
+    //             $.post("/site/index", form.serialize(),  function(response) {
+		// 		console.log(response);
+    //                 button.find(".status").append(response);
+    //                 form.addClass("submitted");
+    //             });
+    //             return false;
+    //         }
+    //     });
+    // });
 
     heroHeight();
 

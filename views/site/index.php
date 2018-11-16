@@ -410,7 +410,7 @@
                         <h1>Интересует?</h1>
                         <h2>Закажите звонок!</h2>
 
-                        <form id="form-contact" method="post" class="form clearfix">
+                        <form action="/web/site/index" method="POST" >
                             <div class="row">
                                 <div class="col-md-6 col-sm-6">
                                     <div class="form-group">
@@ -423,7 +423,8 @@
                                 <div class="col-md-6 col-sm-6">
                                     <div class="form-group">
 <!--                                        <label for="form-contact-email">Телефон</label>-->
-                                        <input type="email" class="form-control" id="form-contact-email" name="email" placeholder="Телефон" required>
+                                        <input type="text" class="form-control" id="form-contact-email" name="phone" placeholder="Телефон" required>
+                                        <input type="hidden" name="_csrf" value="<?= Yii::$app->getRequest()->getCsrfToken() ?>">
                                     </div>
                                     <!--end form-group -->
                                 </div>
@@ -442,7 +443,8 @@
 <!--                            </div>-->
                             <!--end row -->
                             <div class="form-group clearfix">
-                                <button style="font-size: 1.5rem;" type="submit" class="btn pull-right btn-default" id="form-contact-submit">Заказать</button>
+
+                                <input style="font-size: 1.5rem;" type="submit" class="btn pull-right btn-default" id="form-contact-submit" value="Заказать">
                             </div>
                             <!--end form-group -->
                             <div class="form-contact-status"></div>
