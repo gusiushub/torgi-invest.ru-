@@ -36,12 +36,12 @@
                     <div class="hero__inner-wrapper align-middle">
                         <h1>
                             <span class="hero__title">Вы можете</span>
-                            <a class="hero__title text-carousel" href="#contact" >Проконсультироваться, Получить информацию о всех объектах</a>
+                            <a class="hero__title text-carousel" href="#contact" >проконсультироваться, получить информацию о всех объектах</a>
                             <br>
                             <span class="hero__title"> у наших специалистов</span>
                         </h1>
                         <!--end h1-->
-                        <a href="#what-we-do" class="hero__link align-items-center">
+                        <a href="#contact" class="hero__link align-items-center">
                             <figure class="mb-0 align-middle"></figure>
                             Связаться с консультантом
                         </a>
