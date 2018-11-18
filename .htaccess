@@ -1,6 +1,6 @@
 Options +FollowSymLinks
 IndexIgnore */*
-RewriteEngine on
+RewriteEngine On
 
 RewriteCond %{REQUEST_URI} !^/(web)
 RewriteRule ^assets/(.*)$ /web/assets/$1 [L]
@@ -12,5 +12,3 @@ RewriteRule (.*) /web/$1
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /web/index.php
-php_value default_charset utf-8
-AddType 'text/html; charset=utf-8' .html .htm .shtml
