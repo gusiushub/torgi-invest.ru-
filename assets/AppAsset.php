@@ -18,7 +18,7 @@ use yii\web\AssetBundle;
 class AppAsset extends AssetBundle
 {
     public $basePath = '@webroot';
-    public $baseUrl = '@web';
+    public $baseUrl = 'https://torgi-invest.ru/web';
     public $css = [
         'css/animate.css',
         'css/morphext.css',
@@ -29,22 +29,22 @@ class AppAsset extends AssetBundle
         'css/owl.carousel.min.css',
     ];
     public $js = [
-        '../../web/js/jquery-3.2.1.min.js',
-        '../../web/js/popper.min.js',
-        '../../web/bootstrap/js/bootstrap.min.js',
-        '../../web/js/isInViewport.jquery.js',
-        '../../web/js/jquery.particleground.min.js',
-        '../../web/js/jquery.magnific-popup.min.js',
-        '../../web/js/owl.carousel.min.js',
-        '../../web/js/pace.min.js',
-        '../../web/js/jquery.validate.min.js',
-        '../../web/js/jquery-validate.bootstrap-tooltip.min.js',
-        '../../web/js/morphext.min.js',
-        '../../web/js/custom.js',
+        'js/jquery-3.2.1.min.js',
+        'js/popper.min.js',
+        'bootstrap/js/bootstrap.min.js',
+        'js/isInViewport.jquery.js',
+        'js/jquery.particleground.min.js',
+        'js/jquery.magnific-popup.min.js',
+        'js/owl.carousel.min.js',
+        'js/pace.min.js',
+        'js/jquery.validate.min.js',
+        'js/jquery-validate.bootstrap-tooltip.min.js',
+        'js/morphext.min.js',
+        'js/custom.js',
     ];
     public $depends = [
-//        'yii\web\YiiAsset',
-//        'yii\bootstrap\BootstrapAsset',
+        'yii\web\YiiAsset',
+        'yii\bootstrap\BootstrapAsset',
     ];
 
     public function init()
