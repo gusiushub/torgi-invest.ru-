@@ -13,6 +13,7 @@ AppAsset::register($this);
     <!DOCTYPE html>
 <html lang="<?= Yii::$app->language ?>">
     <head>
+        <meta name="yandex-verification" content="6ba011f93db29a21" />
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="author" content="ThemeStarz">
