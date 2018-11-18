@@ -35,6 +35,10 @@ class NotificationController extends Controller
      */
     public function actionIndex()
     {
+        if (Yii::$app->user->isGuest) {
+            return $this->redirect('/web/admin');
+        }
+
         $searchModel = new NotificationSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
@@ -52,6 +56,10 @@ class NotificationController extends Controller
      */
     public function actionView($id)
     {
+        if (Yii::$app->user->isGuest) {
+            return $this->redirect('/web/admin');
+        }
+
         return $this->render('view', [
             'model' => $this->findModel($id),
         ]);
@@ -64,6 +72,10 @@ class NotificationController extends Controller
      */
     public function actionCreate()
     {
+        if (Yii::$app->user->isGuest) {
+            return $this->redirect('/web/admin');
+        }
+
         $model = new Notification();
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
@@ -84,6 +96,10 @@ class NotificationController extends Controller
      */
     public function actionUpdate($id)
     {
+        if (Yii::$app->user->isGuest) {
+            return $this->redirect('/web/admin');
+        }
+
         $model = $this->findModel($id);
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
@@ -101,9 +117,15 @@ class NotificationController extends Controller
      * @param integer $id
      * @return mixed
      * @throws NotFoundHttpException if the model cannot be found
+     * @throws \Throwable
+     * @throws \yii\db\StaleObjectException
      */
     public function actionDelete($id)
     {
+        if (Yii::$app->user->isGuest) {
+            return $this->redirect('/web/admin');
+        }
+
         $this->findModel($id)->delete();
 
         return $this->redirect(['index']);
@@ -118,6 +140,10 @@ class NotificationController extends Controller
      */
     protected function findModel($id)
     {
+        if (Yii::$app->user->isGuest) {
+            return $this->redirect('/web/admin');
+        }
+
         if (($model = Notification::findOne($id)) !== null) {
             return $model;
         }
