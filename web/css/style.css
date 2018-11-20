@@ -2427,7 +2427,7 @@ D. Utilities
 }
 
 .skew-down-left:after {
-    background-image: url("../../web/img/bg-skew-down-left.png");
+    background-image: url("img/bg-skew-down-left.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: bottom right;
