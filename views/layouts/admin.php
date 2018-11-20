@@ -54,7 +54,7 @@ AdminAsset::register($this);
 
     <footer class="footer">
         <div class="container">
-            <p class="pull-left">&copy; MyДедДом aka милый дом <?= date('Y') ?></p>
+            <p class="pull-left">&copy; Хочу лаве <?= date('Y') ?></p>
 
             <p class="pull-right"><?= Yii::powered() ?></p>
         </div>
@@ -62,5 +62,5 @@ AdminAsset::register($this);
 
     <?php $this->endBody() ?>
     </body>
-    </html>
+</html>
 <?php $this->endPage() ?>

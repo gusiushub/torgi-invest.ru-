@@ -343,14 +343,14 @@
         <div class="container">
             <div class="block__wrapper">
                 <div class="block__title" id="contact">
-                    <h2>Контакты</h2>
+                    <h2>Наш адрес</h2>
                 </div>
                 <!--end block-title-->
                 <div class="row">
                     <div class="col-xl-5 col-lg-6 col-md-12 col-sm-12">
                         <div class="row">
                             <div style="font-size: 1.5rem" class="col-sm-6 col-lg-12">
-                                <h4>Наш адрес</h4>
+<!--                                <h4>Наш адрес</h4>-->
                                 <address>
                                     Метро Семеновская,
                                     <br>
@@ -366,6 +366,7 @@
 
                             <!--end col-sm-6 col-lg-12-->
                             <div style="font-size: 1.5rem" class="col-sm-6 col-lg-12">
+                                <h2>Контакты</h2>
                                 <div class="py-4">
                                     <figure>
                                         <i class="fa fa-envelope width-20px"></i>
