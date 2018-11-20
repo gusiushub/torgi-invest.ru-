@@ -1,3 +1,6 @@
+<?php
+$this->title = 'Аукцион недвижимости';
+?>
 <div class="page-wrapper" id="page-top">
     <div class="loading-screen"></div>
     <!--end loading-screen-->

@@ -17,10 +17,10 @@ AppAsset::register($this);
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="author" content="ThemeStarz">
-
+        <meta name="description" content="Аукцион недвижимости." />
+        <meta name="keywords" content="недвижимость, продажа недвижимости, квартира купить, квартира москва, авито недвижимость, яндекс недвижимость, циан недвижимость, недвижимость сайт" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700">
         <?= Html::csrfMetaTags() ?>
-
         <title><?= Html::encode($this->title) ?></title>
         <?php $this->head() ?>
     </head>
@@ -30,18 +30,6 @@ AppAsset::register($this);
 
 <?= $content ?>
 
-<!--    <script src="../../web/js/jquery-3.2.1.min.js"></script>-->
-<!--    <script src="../../web/js/popper.min.js"></script>-->
-<!--    <script src="../../web/bootstrap/js/bootstrap.min.js"></script>-->
-<!--    <script src="../../web/js/isInViewport.jquery.js"></script>-->
-<!--    <script src="../../web/js/jquery.particleground.min.js"></script>-->
-<!--    <script src="../../web/js/jquery.magnific-popup.min.js"></script>-->
-<!--    <script src="../../web/js/owl.carousel.min.js"></script>-->
-<!--    <script src="../../web/js/pace.min.js"></script>-->
-<!--    <script src="../../web/js/jquery.validate.min.js"></script>-->
-<!--    <script src="../../web/js/jquery-validate.bootstrap-tooltip.min.js"></script>-->
-<!--    <script src="../../web/js/morphext.min.js"></script>-->
-<!--    <script src="../../web/js/custom.js"></script>-->
 <?php $this->endBody() ?>
     </body>
 </html>
