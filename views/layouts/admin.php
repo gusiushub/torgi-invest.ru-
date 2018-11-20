@@ -3,7 +3,6 @@ use app\widgets\Alert;
 use yii\helpers\Html;
 use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
-use yii\widgets\Breadcrumbs;
 use app\assets\AdminAsset;
 AdminAsset::register($this);
 ?>
@@ -34,19 +33,19 @@ AdminAsset::register($this);
         echo Nav::widget([
             'options' => ['class' => 'navbar-nav navbar-right'],
             'items' => [
-                ['label' => 'Главная', 'url' => ['/site/index']],
-                ['label' => 'Добавить недвижимость', 'url' => ['/admin/realty/index']],
-                ['label' => 'Уведомления', 'url' => ['/admin/notification/index']],
-                ['label' => 'Выход', 'url' => ['/admin/logout']],
+                ['label' => 'Главная', 'url' => ['https://torgi-invest.ru/']],
+                ['label' => 'Добавить недвижимость', 'url' => ['https://torgi-invest.ru/admin/realty/index']],
+                ['label' => 'Уведомления', 'url' => ['https://torgi-invest.ru/admin/notification']],
+                ['label' => 'Выход', 'url' => ['https://torgi-invest.ru/admin/logout']],
             ],
         ]);
         NavBar::end();
         ?>
 
         <div class="container">
-            <?= Breadcrumbs::widget([
-                'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
-            ]) ?>
+<!--            --><?//= Breadcrumbs::widget([
+//                'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
+//            ]) ?>
             <?= Alert::widget() ?>
             <?= $content ?>
         </div>
