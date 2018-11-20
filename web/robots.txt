@@ -1,2 +1,24 @@
-User-agent: *
-Disallow:
+User-Agent: Yandex
+Disallow: /assets/
+Disallow: /bootstrap/
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /img/
+Disallow: /js/
+Disallow: /pcss/
+Disallow: /php/
+Disallow: /404/
+Disallow: /403/
+Host: torgi-invest.ru
+
+User-Agent: *
+Disallow: /assets/
+Disallow: /bootstrap/
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /img/
+Disallow: /js/
+Disallow: /pcss/
+Disallow: /php/
+Disallow: /404/
+Disallow: /403/
