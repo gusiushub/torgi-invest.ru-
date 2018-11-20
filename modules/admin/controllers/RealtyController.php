@@ -57,7 +57,7 @@ class RealtyController extends Controller
     public function actionView($id)
     {
         if (Yii::$app->user->isGuest) {
-            return $this->redirect('/web/admin');
+            return $this->redirect('/admin');
         }
 
         return $this->render('view', [
@@ -73,7 +73,7 @@ class RealtyController extends Controller
     public function actionCreate()
     {
         if (Yii::$app->user->isGuest) {
-            return $this->redirect('/web/admin');
+            return $this->redirect('/admin');
         }
 
         $model = new Realty();
@@ -97,7 +97,7 @@ class RealtyController extends Controller
     public function actionUpdate($id)
     {
         if (Yii::$app->user->isGuest) {
-            return $this->redirect('/web/admin');
+            return $this->redirect('/admin');
         }
 
         $model = $this->findModel($id);
@@ -123,7 +123,7 @@ class RealtyController extends Controller
     public function actionDelete($id)
     {
         if (Yii::$app->user->isGuest) {
-            return $this->redirect('/web/admin');
+            return $this->redirect('/admin');
         }
 
         $this->findModel($id)->delete();
@@ -141,7 +141,7 @@ class RealtyController extends Controller
     protected function findModel($id)
     {
         if (Yii::$app->user->isGuest) {
-            return $this->redirect('/web/admin');
+            return $this->redirect('/admin');
         }
 
         if (($model = Realty::findOne($id)) !== null) {
