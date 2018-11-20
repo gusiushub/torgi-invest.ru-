@@ -56,7 +56,8 @@ $config = [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
-                //
+                'sitemap.xml' => 'site/sitemap',
+                '/' => 'site/index',​
             ],
         ],
 

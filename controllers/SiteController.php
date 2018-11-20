@@ -84,6 +84,7 @@ class SiteController extends Controller
 
 
 
+
     /**
      * Displays contact page.
      *
@@ -100,6 +101,20 @@ class SiteController extends Controller
         return $this->render('contact', [
             'model' => $model,
         ]);
+    }
+
+    public function actionSitemap()
+    {
+        if (!$xml_sitemap = Yii::$app->cache->get('sitemap')) {
+            $xml_sitemap = $this->renderPartial('sitemap');
+
+            Yii::$app->cache->set('sitemap', $xml_sitemap, 60 * 60 * 12);
+        }
+
+//        Yii::$app->response->format = \yii\web\Response::FORMAT_RAW;
+        $headers = Yii::$app->response->headers;
+        $headers->add('Content-Type', 'text/xml');
+        return $xml_sitemap;
     }
 
 }

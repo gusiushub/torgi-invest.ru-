@@ -1,5 +1,5 @@
 <?php
-$this->title = 'Аукцион недвижимости';
+    $this->title = 'Аукцион недвижимости';
 ?>
 <div class="page-wrapper" id="page-top">
     <div class="loading-screen"></div>
@@ -427,34 +427,20 @@ $this->title = 'Аукцион недвижимости';
 
                                 <input style="font-size: 1.5rem;" type="submit" class="btn pull-right btn-default" value="Заказать">
                             </div>
-                            <!--end form-group -->
                             <div class="form-contact-status"></div>
                         </form>
-                        <!--end form-contact -->
                     </div>
-                    <!--end col-xl-7-->
                 </div>
-                <!--end row-->
             </div>
-            <!--end block__wrapper-->
         </div>
-        <!--end container-->
-
         <hr class="hr-white opacity-10">
-        <!--end hr-->
-
         <div class="container">
-            <span>(C) Copyright 2018, All Rights Reserved</span>
+            <span>(C) All Rights Reserved</span>
         </div>
-        <!--end container-->
-
         <div class="background-wrapper" data-background-color="#000000">
             <div class="background background--particles"></div>
         </div>
-        <!--end background-->
-
     </footer>
-    <!--end footer-->
 </div>
 <!--end page-->
 <!-- Yandex.Metrika counter -->
@@ -486,4 +472,5 @@ $this->title = 'Аукцион недвижимости';
 </script>
 <noscript><div><img src="https://mc.yandex.ru/watch/51197063" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
+
 
