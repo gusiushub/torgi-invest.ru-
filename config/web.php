@@ -10,6 +10,7 @@ $config = [
     'modules' => [
         'admin' => [
             'class' => 'app\modules\admin\Module',
+            'baseUrl'=>'https://torgi-invest.ru/admin',
         ],
     ],
     'aliases' => [
