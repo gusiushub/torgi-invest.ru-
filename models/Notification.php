@@ -2,7 +2,8 @@
 
 namespace app\models;
 
-use Yii;
+//use Yii;
+use yii\db\ActiveRecord;
 
 /**
  * This is the model class for table "notification".
@@ -12,7 +13,7 @@ use Yii;
  * @property string $phone
  * @property int $type
  */
-class Notification extends \yii\db\ActiveRecord
+class Notification extends ActiveRecord
 {
     /**
      * {@inheritdoc}

@@ -2,7 +2,8 @@
 
 namespace app\models;
 
-use Yii;
+//use Yii;
+use yii\db\ActiveRecord;
 
 /**
  * This is the model class for table "realty".
@@ -12,7 +13,7 @@ use Yii;
  * @property string $description
  * @property string $img
  */
-class Realty extends \yii\db\ActiveRecord
+class Realty extends ActiveRecord
 {
     /**
      * {@inheritdoc}
