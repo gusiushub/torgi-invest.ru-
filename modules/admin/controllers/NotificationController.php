@@ -36,7 +36,7 @@ class NotificationController extends Controller
     public function actionIndex()
     {
         if (Yii::$app->user->isGuest) {
-            return $this->redirect('/web/admin');
+            return $this->redirect('/admin');
         }
 
         $searchModel = new NotificationSearch();
@@ -57,7 +57,7 @@ class NotificationController extends Controller
     public function actionView($id)
     {
         if (Yii::$app->user->isGuest) {
-            return $this->redirect('/web/admin');
+            return $this->redirect('/admin');
         }
 
         return $this->render('view', [
@@ -73,7 +73,7 @@ class NotificationController extends Controller
     public function actionCreate()
     {
         if (Yii::$app->user->isGuest) {
-            return $this->redirect('/web/admin');
+            return $this->redirect('/admin');
         }
 
         $model = new Notification();
@@ -123,7 +123,7 @@ class NotificationController extends Controller
     public function actionDelete($id)
     {
         if (Yii::$app->user->isGuest) {
-            return $this->redirect('/web/admin');
+            return $this->redirect('/admin');
         }
 
         $this->findModel($id)->delete();
@@ -141,7 +141,7 @@ class NotificationController extends Controller
     protected function findModel($id)
     {
         if (Yii::$app->user->isGuest) {
-            return $this->redirect('/web/admin');
+            return $this->redirect('/admin');
         }
 
         if (($model = Notification::findOne($id)) !== null) {
