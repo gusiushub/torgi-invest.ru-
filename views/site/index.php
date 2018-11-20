@@ -357,9 +357,9 @@
                                 </address>
 
                             </div>
-                            <div class="form-group clearfix">
-                                <button style="font-size: 1.5rem;" type="submit" class="btn pull-right btn-default" id="form-contact-submit">Назначить встречу</button>
-                            </div>
+<!--                            <div class="form-group clearfix">-->
+<!--                                <button style="font-size: 1.5rem;" type="submit" class="btn pull-right btn-default" id="form-contact-submit">Назначить встречу</button>-->
+<!--                            </div>-->
 
                             <!--end col-sm-6 col-lg-12-->
                             <div style="font-size: 1.5rem" class="col-sm-6 col-lg-12">
@@ -388,12 +388,12 @@
                         <h1>Интересует?</h1>
                         <h2>Закажите звонок!</h2>
 
-                        <form action="/web/site/index" method="POST" >
+                        <form action="/site/index" method="POST" >
                             <div class="row">
                                 <div class="col-md-6 col-sm-6">
                                     <div class="form-group">
 <!--                                        <label for="form-contact-name">Имя</label>-->
-                                        <input type="text" class="form-control" id="form-contact-name" name="name" placeholder="Имя" required>
+                                        <input type="text" class="form-control"  name="name" placeholder="Имя" required>
                                     </div>
                                     <!--end form-group -->
                                 </div>
@@ -401,7 +401,7 @@
                                 <div class="col-md-6 col-sm-6">
                                     <div class="form-group">
 <!--                                        <label for="form-contact-email">Телефон</label>-->
-                                        <input type="text" class="form-control" id="form-contact-email" name="phone" placeholder="Телефон" required>
+                                        <input type="text" class="form-control"  name="phone" placeholder="Телефон" required>
                                         <input type="hidden" name="_csrf" value="<?= Yii::$app->getRequest()->getCsrfToken() ?>">
                                     </div>
                                     <!--end form-group -->
@@ -422,7 +422,7 @@
                             <!--end row -->
                             <div class="form-group clearfix">
 
-                                <input style="font-size: 1.5rem;" type="submit" class="btn pull-right btn-default" id="form-contact-submit" value="Заказать">
+                                <input style="font-size: 1.5rem;" type="submit" class="btn pull-right btn-default" value="Заказать">
                             </div>
                             <!--end form-group -->
                             <div class="form-contact-status"></div>
@@ -454,4 +454,33 @@
     <!--end footer-->
 </div>
 <!--end page-->
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter51197063 = new Ya.Metrika2({
+                    id:51197063,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/tag.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks2");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/51197063" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
 

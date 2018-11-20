@@ -3,6 +3,7 @@
 namespace app\controllers;
 
 use app\models\Notification;
+//use Codeception\Lib\Notification;
 use Yii;
 use yii\filters\AccessControl;
 use yii\web\Controller;
@@ -68,14 +69,14 @@ class SiteController extends Controller
                 $notification->name = $_POST['name'];
                 $notification->phone = $_POST['phone'];
                 $notification->type = 1;
-                $notification->save();
+                $notification->save(false);
 //                return $this->render('index');
             }else{
                 $notification = new Notification();
                 $notification->name = 'не указали';
                 $notification->phone = $_POST['phone'];
                 $notification->type = 1;
-                $notification->save();
+                $notification->save(false);
             }
         }
         return $this->render('index');
