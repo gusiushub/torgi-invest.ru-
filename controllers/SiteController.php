@@ -8,7 +8,6 @@ use yii\filters\AccessControl;
 use yii\web\Controller;
 use yii\web\Response;
 use yii\filters\VerbFilter;
-use app\models\LoginForm;
 use app\models\ContactForm;
 
 class SiteController extends Controller
@@ -69,7 +68,6 @@ class SiteController extends Controller
                 $notification->phone = $_POST['phone'];
                 $notification->type = 1;
                 $notification->save();
-//                return $this->render('index');
             }else{
                 $notification = new Notification();
                 $notification->name = 'не указали';
@@ -101,13 +99,4 @@ class SiteController extends Controller
         ]);
     }
 
-    /**
-     * Displays about page.
-     *
-     * @return string
-     */
-    public function actionAbout()
-    {
-        return $this->render('about');
-    }
 }
