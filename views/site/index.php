@@ -43,21 +43,14 @@
                             <br>
                             <span class="hero__title"> у наших специалистов</span>
                         </h1>
-                        <!--end h1-->
                         <a href="#contact" class="hero__link align-items-center">
                             <figure class="mb-0 align-middle"></figure>
                             Связаться с консультантом
                         </a>
-                        <!--end hero__link-->
                     </div>
-                    <!--end container-->
                 </div>
-                <!--end hero__inner-wrapper-->
             </div>
-            <!--end row-->
         </div>
-        <!--end hero__outer-wrapper-->
-
         <div class="hero__background skew-down-left">
             <!--<div class="background-wrapper skew-down-left" data-background-color="#000000" data-parallax="scroll" data-parallax-speed="3" >-->
             <!--<div class="background&#45;&#45;image opacity-30 background&#45;&#45;repeat-repeat parallax-element">-->
@@ -79,22 +72,16 @@
                     </div>
                 </div>
             </div>
-            <!--end background-->
         </div>
     </header>
-    <!--end hero-->
     <!--************ CONTENT ************************************************************************************-->
     <div id="content">
-        <!--WHAT WE DO ******************************************************************************************-->
         <section class="pb-0 block" id="what-we-do">
             <div class="container">
                 <div class="block__title">
-                    <h2>Что такое аукцион недвижимости? </h2>
+                    <h2>Что мы предлагаем?</h2>
                 </div>
-                <!--end block-title-->
-
                 <div class="row">
-
                     <div class="col-md-4">
                         <div class="box">
                             <div class="box__wrapper">
@@ -156,25 +143,18 @@
                                 <!--end box__header-->
                                 <div class="box__content">
                                     <p style="font-size: 1.5rem;">
-
-                                        Мы предлагаем принять участие в торгах. Мы окажем информирование по объектам, полное сопровождение в ходе торгов, выигрыш торгов по привлекательной цене, сбор и подпись всех документов, «очищение» объекта недвижимости.</p>
+                                        Мы предлагаем принять участие в торгах. Мы окажем информирование по объектам,
+                                        полное сопровождение в ходе торгов, выигрыш торгов по привлекательной цене,
+                                        сбор и подпись всех документов, «очищение» объекта недвижимости.
+                                    </p>
                                 </div>
-                                <!--end box__content-->
                             </div>
-                            <!--end box__wrapper-->
                         </div>
-                        <!--end box-feature-->
                     </div>
-                    <!--end col-md-4-->
                 </div>
-                <!--end row-->
             </div>
-            <!--end container-->
         </section>
-        <!--end #what-we-do.block-->
-
         <!--OUR WORKS ********************************************************************************************-->
-
         <section class="pb-0 block" id="our-works">
             <div class="container">
                 <div class="block__title">
@@ -183,7 +163,6 @@
                 <!--end block-title-->
             </div>
             <!--end container-->
-
             <div class="gallery skew-down-left skew-up-right">
                 <div class="container-fluid px-0">
                     <div class="row no-gutters">
@@ -278,23 +257,14 @@
                                     <img src="../../web/img/1234.jpg" alt="">
                                 </div>
                             </a>
-                            <!--end gallery__image-->
                         </div>
-                        <!--end col-md-4-->
                     </div>
-                    <!--end row-->
                 </div>
-                <!--end container-fluid-->
             </div>
-            <!--end gallery-->
-
-            <div class="my-2 text-center">
-                <a href="#" class="btn btn-primary">Load More</a>
-            </div>
-            <!--end button my-2 text-center-->
+<!--            <div class="my-2 text-center">-->
+<!--                <a href="#" class="btn btn-primary">Load More</a>-->
+<!--            </div>-->
         </section>
-        <!--end #our-works.block-->
-
         <!--ABOUT US ********************************************************************************************-->
         <section class="pt-4 block" id="about-us">
             <div class="container">
@@ -302,8 +272,6 @@
                     <div class="block__title">
                         <h2>Что предлагаем мы? </h2>
                     </div>
-                    <!--end block-title-->
-
                     <div class="row">
                         <div class="col-md-7">
                             <p style="font-size: 1.5rem;">
@@ -312,12 +280,9 @@
                                 При личной встрече в офисе просматриваем список актуальных объектов недвижимости и подбираем вам наиболее подходящий лот.
                                 Регистрируем заявку на участие в аукционе. Собираем пакет документов и оплачиваем пошлину.
                                 Выигрываем аукцион. Получаем право собственности на объект.
-
-
                                 По срокам процедур, цене лота или депозита, и многие другие индивидуальные вопросы расскажем при встрече в офисе.
-
                             </p>
-                            <a href="#contact" class="btn btn-default mb-4">Contact Us</a>
+<!--                            <a href="#contact" class="btn btn-default mb-4">Contact Us</a>-->
                         </div>
                         <!--end col-md-7-->
                         <div class="col-md-5">
