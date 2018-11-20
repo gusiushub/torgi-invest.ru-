@@ -4,10 +4,10 @@ namespace app\controllers;
 
 use app\models\Notification;
 use Yii;
-use yii\filters\AccessControl;
+//use yii\filters\AccessControl;
 use yii\web\Controller;
 use yii\web\Response;
-use yii\filters\VerbFilter;
+//use yii\filters\VerbFilter;
 use app\models\ContactForm;
 
 class SiteController extends Controller
@@ -15,28 +15,28 @@ class SiteController extends Controller
     /**
      * {@inheritdoc}
      */
-    public function behaviors()
-    {
-        return [
-            'access' => [
-                'class' => AccessControl::className(),
-                'only' => ['logout'],
-                'rules' => [
-                    [
-                        'actions' => ['logout'],
-                        'allow' => true,
-                        'roles' => ['@'],
-                    ],
-                ],
-            ],
-            'verbs' => [
-                'class' => VerbFilter::className(),
-                'actions' => [
-                    'logout' => ['post'],
-                ],
-            ],
-        ];
-    }
+//    public function behaviors()
+//    {
+//        return [
+//            'access' => [
+//                'class' => AccessControl::className(),
+////                'only' => ['logout'],
+////                'rules' => [
+////                    [
+////                        'actions' => ['logout'],
+////                        'allow' => true,
+////                        'roles' => ['@'],
+////                    ],
+//                ],
+//            ],
+//            'verbs' => [
+//                'class' => VerbFilter::className(),
+////                'actions' => [
+////                    'logout' => ['post'],
+////                ],
+//            ],
+//        ];
+//    }
 
     /**
      * {@inheritdoc}
@@ -47,10 +47,10 @@ class SiteController extends Controller
             'error' => [
                 'class' => 'yii\web\ErrorAction',
             ],
-            'captcha' => [
-                'class' => 'yii\captcha\CaptchaAction',
-                'fixedVerifyCode' => YII_ENV_TEST ? 'testme' : null,
-            ],
+//            'captcha' => [
+//                'class' => 'yii\captcha\CaptchaAction',
+//                'fixedVerifyCode' => YII_ENV_TEST ? 'testme' : null,
+//            ],
         ];
     }
 
@@ -110,7 +110,6 @@ class SiteController extends Controller
             Yii::$app->cache->set('sitemap', $xml_sitemap, 60 * 60 * 12);
         }
 
-//        Yii::$app->response->format = \yii\web\Response::FORMAT_RAW;
         $headers = Yii::$app->response->headers;
         $headers->add('Content-Type', 'text/xml');
         return $xml_sitemap;

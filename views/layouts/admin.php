@@ -1,5 +1,5 @@
 <?php
-use app\widgets\Alert;
+//use app\widgets\Alert;
 use yii\helpers\Html;
 use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
@@ -23,8 +23,7 @@ AdminAsset::register($this);
     <div class="wrap">
         <?php
         NavBar::begin([
-            'brandLabel' => Yii::$app->name,
-            'brandUrl' => Yii::$app->homeUrl,
+
             'options' => [
                 'class' => 'navbar-inverse navbar-fixed-top',
             ],
@@ -33,10 +32,27 @@ AdminAsset::register($this);
         echo Nav::widget([
             'options' => ['class' => 'navbar-nav navbar-right'],
             'items' => [
-                ['label' => 'Главная', 'url' => ['https://torgi-invest.ru/']],
-                ['label' => 'Добавить недвижимость', 'url' => ['https://torgi-invest.ru/admin/realty/index']],
-                ['label' => 'Уведомления', 'url' => ['https://torgi-invest.ru/admin/notification']],
-                ['label' => 'Выход', 'url' => ['https://torgi-invest.ru/admin/logout']],
+                [
+                    'label' => 'Главная',
+                    'url' => ['https://torgi-invest.ru/'],
+                    'linkOptions' => [],
+
+                ],
+                [
+                    'label' => 'Добавить недвижимость',
+                    'url' => ['https://torgi-invest.ru/admin/realty/index'],
+                    'visible' => !Yii::$app->user->isGuest
+                ],
+                [
+                    'label' => 'Уведомления',
+                    'url' => ['https://torgi-invest.ru/admin/notification'],
+                    'visible' => !Yii::$app->user->isGuest
+                ],
+                [
+                    'label' => 'Выход',
+                    'url' => ['https://torgi-invest.ru/admin/logout'],
+                    'visible' => !Yii::$app->user->isGuest
+                ],
             ],
         ]);
         NavBar::end();
@@ -46,7 +62,7 @@ AdminAsset::register($this);
 <!--            --><?//= Breadcrumbs::widget([
 //                'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
 //            ]) ?>
-            <?= Alert::widget() ?>
+<!--            --><?//= Alert::widget() ?>
             <?= $content ?>
         </div>
     </div>
@@ -54,7 +70,6 @@ AdminAsset::register($this);
     <footer class="footer">
         <div class="container">
             <p class="pull-left">&copy; Хочу лаве <?= date('Y') ?></p>
-
             <p class="pull-right"><?= Yii::powered() ?></p>
         </div>
     </footer>
