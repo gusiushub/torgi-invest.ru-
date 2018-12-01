@@ -19,6 +19,7 @@ AppAsset::register($this);
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="author" content="ThemeStarz">
+        <meta name="google-site-verification" content="SUzgOPwxCeH_DZhdwbxN1ZKIE8Qv6kDzMCyWBuZrOVY" />
         <meta name="description" content="Аукцион недвижимости." />
         <meta name="keywords" content="недвижимость, продажа недвижимости, квартира купить, квартира москва, авито недвижимость, яндекс недвижимость, циан недвижимость, недвижимость сайт" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700">
