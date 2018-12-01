@@ -10,6 +10,7 @@ $config = [
     'modules' => [
         'admin' => [
             'class' => 'app\modules\admin\Module',
+            'baseUrl'=>'https://torgi-invest.ru/admin',
         ],
     ],
     'aliases' => [
@@ -19,7 +20,7 @@ $config = [
 
     'components' => [
         'request' => [
-			'baseUrl'=>'/',
+			'baseUrl'=>'',
 
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
             'cookieValidationKey' => '37Qw-fOUHNyVl6143h8uBr658uf4VUKq',

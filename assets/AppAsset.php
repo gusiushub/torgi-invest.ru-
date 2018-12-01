@@ -27,6 +27,7 @@ class AppAsset extends AssetBundle
         'fonts/font-awesome.css',
         'css/magnific-popup.css',
         'css/owl.carousel.min.css',
+        'https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700',
     ];
     public $js = [
         'js/jquery-3.2.1.min.js',

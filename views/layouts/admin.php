@@ -1,5 +1,4 @@
 <?php
-//use app\widgets\Alert;
 use yii\helpers\Html;
 use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
@@ -34,23 +33,23 @@ AdminAsset::register($this);
             'items' => [
                 [
                     'label' => 'Главная',
-                    'url' => ['https://torgi-invest.ru/'],
+                    'url' => ['/'],
                     'linkOptions' => [],
 
                 ],
                 [
                     'label' => 'Добавить недвижимость',
-                    'url' => ['https://torgi-invest.ru/admin/realty/index'],
+                    'url' => ['/admin/realty/index'],
                     'visible' => !Yii::$app->user->isGuest
                 ],
                 [
                     'label' => 'Уведомления',
-                    'url' => ['https://torgi-invest.ru/admin/notification'],
+                    'url' => ['/admin/notification/index'],
                     'visible' => !Yii::$app->user->isGuest
                 ],
                 [
                     'label' => 'Выход',
-                    'url' => ['https://torgi-invest.ru/admin/logout'],
+                    'url' => ['/admin/logout'],
                     'visible' => !Yii::$app->user->isGuest
                 ],
             ],
@@ -59,10 +58,7 @@ AdminAsset::register($this);
         ?>
 
         <div class="container">
-<!--            --><?//= Breadcrumbs::widget([
-//                'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
-//            ]) ?>
-<!--            --><?//= Alert::widget() ?>
+
             <?= $content ?>
         </div>
     </div>

@@ -1,6 +1,8 @@
 <?php
 
 namespace app\modules\admin;
+//use Yii;
+//use yii\filters\AccessControl;
 
 /**
  * admin module definition class
@@ -13,6 +15,8 @@ class Module extends \yii\base\Module
     public $controllerNamespace = 'app\modules\admin\controllers';
 
     public $layout = '/admin';
+    public $baseUrl = 'torgi-invest.ru/admin';
+
 
 
     /**

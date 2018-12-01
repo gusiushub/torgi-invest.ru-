@@ -16,10 +16,11 @@ AppAsset::register($this);
         <meta name="yandex-verification" content="6ba011f93db29a21" />
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="author" content="ThemeStarz">
-        <meta name="description" content="Аукцион недвижимости." />
+        <!--<meta name="author" content="ThemeStarz">-->
+        <meta name="description" content="Недвижимость, выставленная на аукцион, сильно ниже рыночной стоимости.
+                                        Зачастую разница между стоимостью лота и его рыночной стоимостью достигает 30-40%." />
         <meta name="keywords" content="недвижимость, продажа недвижимости, квартира купить, квартира москва, авито недвижимость, яндекс недвижимость, циан недвижимость, недвижимость сайт" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700">
+        <!--<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700">-->
         <?= Html::csrfMetaTags() ?>
         <title><?= Html::encode($this->title) ?></title>
         <?php $this->head() ?>
